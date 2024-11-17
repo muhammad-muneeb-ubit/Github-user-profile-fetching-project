@@ -6,13 +6,6 @@
 html{
     font-size: 16px;
 }
-/* body{
-    filter: invert(1) hue-rotate(180deg);
-}
-img{
-    filter: invert(1) hue-rotate(180deg);
-
-} */
 .container{                                                                 
     text-align: center;
     display: flex;

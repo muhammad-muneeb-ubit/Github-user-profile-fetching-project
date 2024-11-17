@@ -24,18 +24,15 @@ async function getData() {
             json.email = "test@gmail.com";
             json.location = "Pakistan";
         }
-        if(repository.length <10 || followers.length <10 || following.length <10){
-
-        }
         heading.innerHTML = `Welcome, ${ json.name}!`;
         location.innerHTML = json.location;
         profileImg.src = json.avatar_url;
         name.innerHTML = json.name;
         bio.innerHTML = json.bio;
         email.innerHTML = json.email;
-        repository.innerHTML = json.public_repos;
-        followers.innerHTML = json.followers;
-        following.innerHTML = json.following;
+        repository.innerHTML = `Repositories: ${json.public_repos}`;
+        followers.innerHTML = `Followers: ${json.followers}`;
+        following.innerHTML = `Following: ${json.following}`;
     }
   } catch (error) {
     console.error(error.message);
