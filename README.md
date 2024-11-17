@@ -1,3 +1,5 @@
+
+# Project Title
 # Github User Profile Fetcher
 
 This project allows you to fetch information about a GitHub user and display their profile details.
