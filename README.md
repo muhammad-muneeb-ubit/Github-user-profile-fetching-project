@@ -7,7 +7,7 @@ This project allows you to fetch information about a GitHub user and display the
 ## How to Use
 1. **Clone the repository:**
    ```bash
-   git clone [invalid URL removed]
+   git clone https://github.com/muhammad-muneeb-ubit/Github-user-profile-fetching-project.git
 Use code with caution.
 
 Open the project in your preferred code editor.
